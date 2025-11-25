@@ -58,3 +58,4 @@ C:\Users\canbay\Desktop\KAFKA\KafkaProducerApi\obj\Debug\net9.0\refint\KafkaProd
 C:\Users\canbay\Desktop\KAFKA\KafkaProducerApi\obj\Debug\net9.0\KafkaProducerApi.pdb
 C:\Users\canbay\Desktop\KAFKA\KafkaProducerApi\obj\Debug\net9.0\KafkaProducerApi.genruntimeconfig.cache
 C:\Users\canbay\Desktop\KAFKA\KafkaProducerApi\obj\Debug\net9.0\ref\KafkaProducerApi.dll
+C:\Users\canbay\Desktop\KAFKA\KafkaProducerApi\obj\Debug\net9.0\KafkaProducerApi.sourcelink.json

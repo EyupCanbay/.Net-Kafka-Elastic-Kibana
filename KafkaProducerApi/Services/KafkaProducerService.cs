@@ -14,7 +14,7 @@ public class KafkaProducerService : IKafkaProducerService, IDisposable
 
         var config = new ProducerConfig
         {
-            BootstrapServers = "localhost:9092",  // ← BU ÇOK ÖNEMLİ! localhost olmalı
+            BootstrapServers = "localhost:9092",  
             ClientId = "aspnet-producer",
             Acks = Acks.All,
             EnableIdempotence = true,
