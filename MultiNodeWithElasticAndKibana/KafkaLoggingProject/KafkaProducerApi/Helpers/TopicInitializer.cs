@@ -1,5 +1,5 @@
 using Confluent.Kafka;
-using Confluent.Kafka.Admin; // <-- CS0246 hatası düzeltildi.
+using Confluent.Kafka.Admin; 
 
 namespace KafkaProducerApi.Helpers
 {
@@ -20,12 +20,12 @@ public class TopicInitializer
                 {
                     new TopicSpecification { Name = topicName, NumPartitions = 3, ReplicationFactor = 3 }
                 });
-                Console.WriteLine($"✅ Topic Oluşturuldu: {topicName}");
+                Console.WriteLine($"Topic Oluşturuldu: {topicName}");
             }
-            // Topic zaten varsa hata vermesi normaldir.
+            // Topic zaten varsa sistem kendini kapatmasın diye.
             catch (CreateTopicsException e) when (e.Results[0].Error.Code == ErrorCode.TopicAlreadyExists) 
             {
-                Console.WriteLine($"ℹ️ Topic mevcut: {topicName}");
+                Console.WriteLine($"ℹTopic mevcut: {topicName}");
             }
         }
     }

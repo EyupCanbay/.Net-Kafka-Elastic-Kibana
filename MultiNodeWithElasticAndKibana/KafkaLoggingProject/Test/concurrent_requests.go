@@ -24,7 +24,7 @@ var endpoints = []string{
 // Yük dağılımı: 1000 istek, 334, 333, 333 şeklinde bölünecek.
 const split1 = 334 // Success için
 const split2 = 333 // Not Found için
-// Geri kalanı 333 (Server Error için)
+//Geri kalanı 333 (Server Error için)
 
 func main() {
 	var wg sync.WaitGroup
